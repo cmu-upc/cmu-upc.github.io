@@ -1,0 +1,22 @@
+<header id="home">
+  <a href="{{site.baseurl}}/index.html" class="logo" data-scroll>
+    <img src="{{site.baseurl}}/img/spade.jpg">
+    CMU Poker Club
+  </a>
+  <nav class="nav-collapse">
+    <ul>
+      {% if page.section-type == index %}
+        <li class="menu-item"><a href="#about-home" data-scroll>About</a></li>
+        <li class="menu-item"><a href="#events-home" data-scroll>Events</a></li>
+        <li class="menu-item"><a href="#contact" data-scroll>Contact Us</a></li>
+      {% else %}
+        <li class="menu-item"><a href="{{site.baseurl}}/about.html" data-scroll>About</a></li>
+        <li class="menu-item"><a href="{{site.baseurl}}/events.html" data-scroll>Events</a></li>
+        <li class="menu-item"><a href="{{site.baseurl}}/" data-scroll>Contact Us</a></li>
+      {% endif %}
+
+    </ul>
+  </nav>
+</header>
+
+<div id="buffer" style="margin-top: 55px;"></div>

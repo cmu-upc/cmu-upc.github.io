@@ -1,0 +1,49 @@
+@media screen and (max-width: 968px) {
+
+	#banner h1
+	{
+		font-size: 5em;
+	}
+
+	#contact ul
+	{
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+
+	.event-card p
+	{
+		height: 35%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	td
+	{
+		display: block;
+	}
+
+	#banner h1
+	{
+		padding: 30px;
+		font-size: 5em;
+	}
+
+}
+
+@media screen and (max-width: 560px) {
+
+	td
+	{
+		display: block;
+	}
+
+	#banner h1
+	{
+		padding: 30px;
+	}
+
+}

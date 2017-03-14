@@ -1,0 +1,36 @@
+<div id="events-home">
+	<table>
+		<tr>
+			<td rowspan="2" colspan="2">
+				<div class="event-card">
+					{% assign post = site.posts[0] %}
+					<h2>{{post.title}}</h2>
+					<p>{{post.blurb}}</p>
+					<img src="{{post.image}}">
+					<a href="{{post.url }}">Read More</a>
+				</div>
+			</td>
+			<td style="vertical-align: top;">
+				<div class="event-card">
+					{% assign post = site.posts[1] %}
+					<h2>{{post.title}}</h2>
+					<img src="{{post.image}}">
+					<a href="{{post.url }}">Read More</a>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="vertical-align: bottom;">
+				<div class="event-card">
+					{% assign post = site.posts[2] %}
+					<h2>{{post.title}}</h2>
+					<img src="{{post.image}}">
+					<a href="{{post.url}}">Read More</a>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+	<a href="events.html">More Events</a>
+
+</div>

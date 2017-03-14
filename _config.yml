@@ -1,7 +1,8 @@
 # Site settings
-title: My Little Website
+title: CMU UPC
 tagline: "Changing the world, one uninspired quote at a time"
 url: "http://yourwebsite.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
+
 
 # Social
 socialimg: /img/social.jpg # be sure to change this image
@@ -20,3 +21,32 @@ email: "hello@garrettboatman.com" # This is my real email address. Please don't 
 #    style: :compressed
 
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+
+collections:
+- events
+
+collections:
+  events:
+    output: true
+
+event_posts:
+  doug_polk:
+    header: 'Doug Polk'
+    blurb: 'The Undergraduate Poker Club was honored to host Doug Polk, one of the best head’s up Hold ‘Em specialists in the world. We held a Q&A/picture taking session with Doug, along with a short tournament, which Doug participated in.'
+    post: 'post'
+    image: 'img/doug_polk.jpg'
+    post_url: 'posts/doug_polk.html'
+  csa:
+    header: 'UPC x CSA Tournament'
+    blurb: 'The Undergraduate Poker Club is partnering with the Chinese Students Association to present our BIGGEST campus-wide tournament featuring a $250 prize pool.'
+    post: 'post'
+    image: 'img/csa.jpg'
+    post_url: 'posts/doug_polk.html'
+  event3:
+    header: 'Some other event'
+    blurb: 'with some other blurb'
+    post: 'post'
+    image: 'img/doug_polk.jpg'
+    post_url: '_posts/2012-09-12-how-to-write-a-blog.md'
+
+

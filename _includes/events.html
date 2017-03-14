@@ -1,0 +1,42 @@
+<div id="events">
+
+	<a href="index.html">back</a>
+
+  <table id="events-table">
+  <script>
+    var rowMax = 2;
+    var table = document.getElementById("events-table");
+    var i = 0;
+  </script>
+    {% for post in site.posts %}
+      <script>
+        if (i == 0) {
+          var row = table.insertRow(table.rows.length);
+        } 
+        else {
+        	var row = table.rows[table.rows.length - 1];
+        }
+
+        console.log(row)
+
+        // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
+        var cell1 = row.insertCell(i);
+        //var cell2 = row.insertCell(1);
+        
+        // Add some text to the new cells:
+        cell1.innerHTML = "<div class='event-card'>\
+														<h2>{{post.title}}</h2>\
+														<p>{{post.blurb}}</p>\
+														<img src={{post.image}}>\
+														<a href='{{ post.url }}'>Read More</a>\
+													</div>";
+        i++;
+        if (i == rowMax) {
+          i =0 ;
+        }
+      </script>
+    {% endfor %}
+    
+  </table>
+
+</div>

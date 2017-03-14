@@ -13,7 +13,16 @@
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 				
-		{{ content }}
+		{% include navigation.html %}
+
+		<main>
+			{% include banner.html %}
+			{% include about-home.html %}
+
+			{% include events_home.html %}
+		</main>
+
+		{% include footer.html %}
 		
 	</body>
 </html>

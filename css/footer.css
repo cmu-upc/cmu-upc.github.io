@@ -1,0 +1,29 @@
+
+#contact
+{
+	width: 80%;
+	background: white;
+	height: 100px;
+	color: #333;
+	text-align: center;
+	padding: 5% 10% 10% 10%;
+}
+
+#contact h2
+{
+	margin-bottom: 40px;
+}
+
+#contact ul
+{
+	list-style: none;
+	text-align: left;
+	float: center;
+	margin: 0 40%;
+	width: 30%;
+}
+
+#contact ul li
+{
+	margin: 25px 0;
+}
