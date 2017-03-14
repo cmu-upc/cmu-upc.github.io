@@ -1,0 +1,16 @@
+#contact-main
+{
+	width: 100%;
+	padding-top: 8%;
+	text-align: center;
+}
+
+#contact-main h2
+{
+	margin-bottom: 40px;
+}
+
+#contact-main p
+{
+	line-height: 50px;
+}

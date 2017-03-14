@@ -18,6 +18,7 @@
 #events-home td
 {
 	padding: 0 5px 0 5px;
+	height: 100%;
 }
 
 #events
@@ -64,13 +65,13 @@
 
 .event-card p
 {
-	height: 30%;
+	height: 20%;
 	display: block;
 }
 
 .event-card img
 {
-	max-width: 50%;
+	max-width: 60%;
 	position: relative;
 	bottom: 0;
 }
@@ -105,6 +106,11 @@
 .event-post p
 {
 	margin: 3% 15% 3% 15%;
+}
+
+.event-post h1
+{
+	font-size: 3.5em;
 }
 
 .event-post p
