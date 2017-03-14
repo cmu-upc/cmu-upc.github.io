@@ -29,24 +29,3 @@ collections:
   events:
     output: true
 
-event_posts:
-  doug_polk:
-    header: 'Doug Polk'
-    blurb: 'The Undergraduate Poker Club was honored to host Doug Polk, one of the best head’s up Hold ‘Em specialists in the world. We held a Q&A/picture taking session with Doug, along with a short tournament, which Doug participated in.'
-    post: 'post'
-    image: 'img/doug_polk.jpg'
-    post_url: 'posts/doug_polk.html'
-  csa:
-    header: 'UPC x CSA Tournament'
-    blurb: 'The Undergraduate Poker Club is partnering with the Chinese Students Association to present our BIGGEST campus-wide tournament featuring a $250 prize pool.'
-    post: 'post'
-    image: 'img/csa.jpg'
-    post_url: 'posts/doug_polk.html'
-  event3:
-    header: 'Some other event'
-    blurb: 'with some other blurb'
-    post: 'post'
-    image: 'img/doug_polk.jpg'
-    post_url: '_posts/2012-09-12-how-to-write-a-blog.md'
-
-
