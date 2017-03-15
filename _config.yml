@@ -13,10 +13,43 @@ email: "cmupokerclub@gmail.com" # This is my real email address. Please don't em
 
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 
+officers:
+  bowen:
+    name: 'Bowen Wang'
+    photo: 'img/officers/bowen.png'
+    position: 'President'
+  brandon:
+    name: 'Brandon Takao'
+    photo: 'img/officers/brandon.png'
+    position: 'President'
+  sean:
+    name: 'Sean Park'
+    photo: 'img/officers/sean.jpg'
+    position: 'VP of Finance / Web Developer'
+  joonha:
+    name: 'Joonha Lee'
+    photo: 'img/officers/joonha.png'
+    position: 'VP of Communications'
+  bill:
+    name: 'Bill Kim'
+    photo: 'img/officers/bill.png'
+    position: 'VP of Logistics'
+  tommy:
+    name: 'Tommy San Miguel'
+    photo: 'img/officers/tommy.png'
+    position: 'Webmaster'
+  emily:
+    name: 'Emily Chen'
+    photo: 'img/officers/emily.png'
+    position: 'Design Chair'
+  bradley:
+    name: 'Bradley Guan'
+    photo: 'img/officers/bradley.png'
+    position: 'Treasurer'
+
 collections:
 - events
 
 collections:
   events:
     output: true
-

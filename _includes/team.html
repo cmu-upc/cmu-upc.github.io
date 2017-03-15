@@ -1,3 +1,81 @@
 <div id="team">
-	insert team content here in _includes. style it in about.html
+	<h1>Team</h1>
+	<!-- <table id="team-table">
+		<tr>
+			<td>
+				<img src="{{site.baseurl}}/img/officers/bowen.png" class="officer-img">
+				<h5>Bowen Wang</h5>
+				<small>Co-President</small>
+			</td>
+			<td>
+				<img src="{{site.baseurl}}/img/officers/brandon.png" class="officer-img">
+				<h5>Brandon Takao</h5>
+				<small>Co-President</small>
+			</td>
+			<td>
+				<img src="{{site.baseurl}}/img/officers/sean.jpg" class="officer-img">
+				<h5>Sean Park</h5>
+				<small>VP of Finance / Web Developer</small>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="{{site.baseurl}}/img/officers/joonha.png" class="officer-img">
+				<h5>Joonha Lee</h5>
+				<small>VP of Communication</small>
+			</td>
+			<td>
+				<img src="{{site.baseurl}}/img/officers/bill.png" class="officer-img">
+				<h5>Bill Kim</h5>
+				<small>VP of Logistics</small>
+			</td>
+			<td>
+				<img src="{{site.baseurl}}/img/officers/tommy.png" class="officer-img">
+				<h5>Tommy San Miguel</h5>
+				<small>Webmaster</small>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="{{site.baseurl}}/img/officers/emily.png" class="officer-img">
+				<h5>Emily Chen</h5>
+				<small>Design Chair</small>
+			</td>
+			<td>
+				<img src="{{site.baseurl}}/img/officers/bradley.png" class="officer-img">
+				<h5>Bradley Guan</h5>
+				<small>Treasurer</small>
+			</td>
+		</tr>
+	</table> -->
+	<table id="team-table">
+		<script>
+	    var rowMax = 3;
+	    var table = document.getElementById("team-table");
+	    var i = 0;
+	  </script>
+		{% for o in site.officers %}
+			<script>
+        if (i == 0) {
+          var row = table.insertRow(table.rows.length);
+        } 
+        else {
+        	var row = table.rows[table.rows.length - 1];
+        }
+
+        // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
+        var cell1 = row.insertCell(i);
+        //var cell2 = row.insertCell(1);
+        
+        // Add some text to the new cells:
+        cell1.innerHTML = "<img src='{{site.baseurl}}/{{o[1].photo}}' class='officer-img'>\
+														<h5>{{o[1].name}}</h5>\
+														<small>{{o[1].position}}</small>"
+        i++;
+        if (i == rowMax) {
+          i =0 ;
+        }
+      </script>
+		{% endfor %}
+	</table>
 </div>
