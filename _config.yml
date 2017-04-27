@@ -1,7 +1,7 @@
 # Site settings
 title: CMU UPC
 icon: "img/logo.png"
-tagline: "This organization provides a positive learning environment for both enthusiasts and beginners alike to discuss and apply the strategies of all forms of poker, primarily Texas Hold'em. quote at a time"
+tagline: "This organization provides a positive learning environment for both enthusiasts and beginners alike to discuss and apply the strategies of all forms of poker, primarily Texas Hold'em."
 url: "cmu-upc.github.io" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
 # Contact
