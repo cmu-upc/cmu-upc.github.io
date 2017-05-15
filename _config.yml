@@ -1,7 +1,7 @@
 # Site settings
-title: CMU UPC
+title: CMU Poker Club
 icon: "img/logo.png"
-tagline: "This organization provides a positive learning environment for both enthusiasts and beginners alike to discuss and apply the strategies of all forms of poker, primarily Texas Hold'em."
+tagline: "The Undergraduate Poker Club provides an environment for Carnegie Mellon students to develop and apply analytical skills and strategies to the game of poker."
 url: "cmu-upc.github.io" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
 force-https: True
@@ -32,11 +32,11 @@ officers:
   joonha:
     name: 'Joonha Lee'
     photo: 'img/officers/joonha.png'
-    position: 'VP of Communications'
+    position: 'VP of Operations'
   bill:
     name: 'Bill Kim'
     photo: 'img/officers/bill.png'
-    position: 'VP of Logistics'
+    position: 'Director of Logistics'
   tommy:
     name: 'Tommy San Miguel'
     photo: 'img/officers/tommy.png'
@@ -44,7 +44,7 @@ officers:
   emily:
     name: 'Emily Chen'
     photo: 'img/officers/emily.png'
-    position: 'Design Chair'
+    position: 'Director of Marketing'
   bradley:
     name: 'Bradley Guan'
     photo: 'img/officers/bradley.png'

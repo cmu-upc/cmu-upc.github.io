@@ -36,6 +36,11 @@
 
 @media screen and (max-width: 560px) {
 
+	.logo
+	{
+		font-size: 0.9em;
+	}
+
 	td
 	{
 		display: block;
