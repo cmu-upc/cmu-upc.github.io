@@ -30,6 +30,12 @@
 	color: #b20000;
 }
 
+#about h3
+{
+	margin: 20px;
+	font-size: 32px;
+}
+
 #about p
 {
 	margin: 10px;
