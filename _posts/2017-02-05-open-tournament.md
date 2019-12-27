@@ -3,13 +3,20 @@ layout: event-post
 section-type: post
 
 title:  "CMU Open Tournament"
-date:   2017-02-05 16:16:00 -0600
-blurb: "The Undergraduate Poker Club held a freeroll tournament open to the general student body."
-image: 'img/open_tournament_main.jpg'
+date:   2019-12-07 16:16:00 -0600
+blurb: "Recap of the last tournament of the semester"
+image: 'img/12_7_2019_tourney/chips.jpg'
 ---
 
-Towards the beginning of each semester, the Undergraduate Poker Club holds a freeroll tournament to allow any interested students see what UPC is about. We had more than 30 students participate in a tournament that look close to 3 hours. Thank you to everyone that came out!
+Towards the end of the semester, UPC hosted the second free tournament of the Fall. 
 
-<div><img src='{{site.baseurl}}/img/open_tournament.jpg'/></div>
+Little known fact: Will's hair is a tell. When he has the stone cold nuts the back of his head gets really hot and it causes his hair to rise:
 
-Congratulations to Christopher Liu and Nicholas Mu for taking home first and second, and Nicholas Tarn for taking third place.
+<img src='{{site.baseurl}}/img/12_7_2019_tourney/table1.jpg' width="80%"/>
+
+<img src='{{site.baseurl}}/img/12_7_2019_tourney/table2.jpg' width="80%"/>
+
+<img src='{{site.baseurl}}/img/12_7_2019_tourney/winner.jpg' style="transform:rotate(90deg);width:30%" align="left" hspace="20"/>
+
+
+Congratulations to our winner, who won the tournament by hitting a flush with J6o! For his valiant efforts, he wins a $9 gift card to Panera Bread. 

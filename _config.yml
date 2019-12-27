@@ -18,37 +18,10 @@ exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 
 officers:
   bowen:
-    name: 'Bowen Wang'
-    photo: 'img/officers/bowen.png'
+    name: 'Ryan Chen'
+    photo: 'img/officers/ryan.png'
     position: 'President'
-  brandon:
-    name: 'Brandon Takao'
-    photo: 'img/officers/brandon.png'
-    position: 'President'
-  sean:
-    name: 'Sean Park'
-    photo: 'img/officers/sean.jpg'
-    position: 'VP of Finance / Web Developer'
-  joonha:
-    name: 'Joonha Lee'
-    photo: 'img/officers/joonha.png'
-    position: 'VP of Operations'
-  bill:
-    name: 'Bill Kim'
-    photo: 'img/officers/bill.png'
-    position: 'Director of Logistics'
-  tommy:
-    name: 'Tommy San Miguel'
-    photo: 'img/officers/tommy.png'
-    position: 'Webmaster'
-  emily:
-    name: 'Emily Chen'
-    photo: 'img/officers/emily.png'
-    position: 'Director of Marketing'
-  bradley:
-    name: 'Bradley Guan'
-    photo: 'img/officers/bradley.png'
-    position: 'Treasurer'
+  
 
 collections:
 - events
