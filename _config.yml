@@ -19,7 +19,7 @@ exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 officers:
   bowen:
     name: 'Ryan Chen'
-    photo: 'img/officers/ryan.png'
+    photo: '{{site.baseurl}}/img/officers/ryan.png'
     position: 'President'
   
 
