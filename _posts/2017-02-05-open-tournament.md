@@ -16,7 +16,7 @@ Little known fact: Will's hair is a tell. When he has the stone cold nuts the ba
 
 <img src='{{site.baseurl}}/img/12_7_2019_tourney/table2.jpg' width="80%"/>
 
-<img src='{{site.baseurl}}/img/12_7_2019_tourney/winner.jpg' style="transform:rotate(90deg);width:30%" align="left" hspace="20"/>
+<img src='{{site.baseurl}}/img/12_7_2019_tourney/winner.jpg' style="width:30%" align="left" hspace="20"/>
 
 
 Congratulations to our winner, who won the tournament by hitting a flush with J6o! For his valiant efforts, he wins a $9 gift card to Panera Bread. 
